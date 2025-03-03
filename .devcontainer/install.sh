@@ -13,6 +13,18 @@ sudo apt update
 sudo apt install helix
 cargo install bacon
 rustup component add rust-analyzer
+cargo install cargo-binstall
+cargo binstall dioxus-cli
+sudo apt update
+sudo apt install libwebkit2gtk-4.1-dev \
+  build-essential \
+  curl \
+  wget \
+  file \
+  libxdo-dev \
+  libssl-dev \
+  libayatana-appindicator3-dev \
+  librsvg2-dev
 echo
 echo "---------------------"
 echo "install script ends"
