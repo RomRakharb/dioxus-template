@@ -1,1 +1,1 @@
-# base-template
+# dioxus-template
