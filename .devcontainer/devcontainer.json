@@ -1,11 +1,12 @@
 {
-	"name": "base-template",
+	"name": "dioxus-template",
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 	"features": {
 		"ghcr.io/devcontainers/features/rust:1": {
 			"profile": "default"
-		}
-	}
-	// "forwardPorts": [],
+		},
+		"ghcr.io/devcontainers/features/node:1": {}
+	},
+	"forwardPorts": [ 8080 ],
 	// "postCreateCommand": "bash .devcontainer/install.sh"
 }
