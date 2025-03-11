@@ -25,6 +25,7 @@ sudo apt install -y libwebkit2gtk-4.1-dev \
   libssl-dev \
   libayatana-appindicator3-dev \
   librsvg2-dev
+rm README.md
 echo
 echo "---------------------"
 echo "install script ends"
