@@ -14,7 +14,7 @@ sudo apt install helix
 cargo install bacon
 rustup component add rust-analyzer
 cargo install cargo-binstall
-cargo binstall dioxus-cli
+cargo binstall -y dioxus-cli
 sudo apt update
 sudo apt install -y libwebkit2gtk-4.1-dev \
   build-essential \
