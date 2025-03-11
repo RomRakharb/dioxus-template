@@ -16,7 +16,7 @@ rustup component add rust-analyzer
 cargo install cargo-binstall
 cargo binstall dioxus-cli
 sudo apt update
-sudo apt install libwebkit2gtk-4.1-dev \
+sudo apt install -y libwebkit2gtk-4.1-dev \
   build-essential \
   curl \
   wget \
