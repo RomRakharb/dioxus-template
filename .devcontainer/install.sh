@@ -28,6 +28,15 @@ npm i -g vscode-langservers-extracted
 rm README.md
 dx init
 
+cat <<EOL >> README.md
+
+To use TailwindCSS:
+```
+./tailwindcss -i ./input.css -o ./assets/tailwind.css --watch
+```
+EOL
+
+
 echo
 echo "---------------------"
 echo "install script ends"
