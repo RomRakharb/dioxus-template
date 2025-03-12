@@ -4,7 +4,8 @@
 	"features": {
 		"ghcr.io/devcontainers/features/rust:1": {
 			"profile": "default"
-		}
+		},
+		"ghcr.io/devcontainers/features/node:1": {}
 	},
 	"forwardPorts": [ 8080 ]
 }
