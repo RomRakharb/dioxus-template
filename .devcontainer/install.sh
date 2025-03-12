@@ -18,24 +18,11 @@ cargo install bacon
 cargo install cargo-binstall
 cargo binstall -y dioxus-cli
 
-curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-linux-x64
-chmod +x tailwindcss-linux-x64
-mv tailwindcss-linux-x64 tailwindcss
-
 rustup component add rust-analyzer
 npm i -g vscode-langservers-extracted
 
 rm README.md
 dx init
-
-cat <<EOL >> README.md
-
-To use TailwindCSS:
-```
-./tailwindcss -i ./input.css -o ./assets/tailwind.css --watch
-```
-EOL
-
 
 echo
 echo "---------------------"
