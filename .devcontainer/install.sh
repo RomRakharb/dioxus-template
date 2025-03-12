@@ -15,12 +15,12 @@ sudo apt update
 sudo apt install helix
 
 cargo install bacon
-rustup component add rust-analyzer
-npm install --save vscode-css-languageservice
 cargo install cargo-binstall
-
 cargo binstall -y dioxus-cli
-sudo apt update
+
+rustup component add rust-analyzer
+npm i -g vscode-langservers-extracted
+
 rm README.md
 dx init
 
