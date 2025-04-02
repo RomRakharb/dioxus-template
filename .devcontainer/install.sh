@@ -21,9 +21,6 @@ cargo binstall -y dioxus-cli
 rustup component add rust-analyzer
 npm i -g vscode-langservers-extracted
 
-rm README.md
-dx init
-
 echo
 echo "---------------------"
 echo "install script ends"
